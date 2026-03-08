@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.title("GMIRE - Infrastructure Risk Dashboard")
 
 # Example: show dataset from your data folder
-df = pd.read_csv("../data/sample_data.csv")  # adjust file path
+df = pd.read_csv("data/sample_data.csv")  # new correct path
 st.dataframe(df)
 
 # Example chart
